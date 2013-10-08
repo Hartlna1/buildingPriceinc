@@ -44,8 +44,8 @@ else
 
 //Output of data
 document.write("The name fo the building is:" + ES + name + ES + "Building" + LE + BR);
-document.write("The cost of the building in" + ES + initial_year + ES + "was: $" + initial_price + LE + ES + ES + "The cost of the building in" + ES + final_year + ES + "was: $" + final_price + LE + BR);
-document.write("The difference in price of the" + ES + name + ES + "building is: $" + difference + LE + BR);
+document.write("The cost of the building in" + ES + initial_year + ES + "was: $" + initial_price.toFixed(2) + LE + ES + ES + "The cost of the building in" + ES + final_year + ES + "was: $" + final_price + LE + BR);
+document.write("The difference in price of the" + ES + name + ES + "building is: $" + difference.toFixed(2) + LE + BR);
 document.write("The" + ES + change + ES + "of the" + ES + name + ES + "building from" + ES + initial_year + ES + "to" + ES + final_year + ES + "is:" + ES + percentage.toFixed(2) + "%" + LE + BR + BR);
 
 //Thank the user and end the program
