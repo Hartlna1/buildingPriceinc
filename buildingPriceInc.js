@@ -37,6 +37,10 @@ if (percentage < 0)
 {
 	change = "percent decrease";
 }
+else if (percentage == 0) 
+{
+	change = "percent change";
+}
 else
 {
 	change = "percent increase"
